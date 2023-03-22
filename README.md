@@ -13,7 +13,7 @@ pip install xlsimage
 在代码中使用:
 
 ```py
-import XlsImage
+import XlsImage as xls
 
 imgs = xls.XlsGetImages("example.xls")
 print("total images: ", len(imgs))
